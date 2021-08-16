@@ -1,0 +1,3 @@
+FROM tomcat:8.5.69-jdk8-adoptopenjdk-openj9
+COPY Bonos_Corporativos.war /usr/local/tomcat/webapps
+CMD ["catalina.sh","run"]
